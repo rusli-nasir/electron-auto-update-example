@@ -11,8 +11,8 @@ function createWindow () {
       nodeIntegration: true,
     },
   });
-  mainWindow.setMenuBarVisibility(false);
-  mainWindow.maximize();
+  //mainWindow.setMenuBarVisibility(false);
+  //mainWindow.maximize();
   mainWindow.loadFile('index.html');
   mainWindow.on('closed', function () {
     mainWindow = null;
